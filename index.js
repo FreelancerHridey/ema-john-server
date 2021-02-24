@@ -51,7 +51,7 @@ const app = express();
     const product = req.body;
     productCollection.insertOne(product)
     .then((result) =>{
-       res.send(result.insertCount);
+       res.send(result.insertCount);git
     })
 })
 
